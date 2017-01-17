@@ -57,6 +57,7 @@ module BlueprintAgreement
       HEADER_PATCH = {
         "CONTENT_TYPE" => "Content-Type",
         "HTTP_AUTHORIZATION" => "Authorization",
+        "HTTP_ACCEPT_VERSION" => "Accept-Version",
         "rack.request.cookie_string" => "Cookie",
         "HTTP_COOKIE" => "Cookie",
       }
